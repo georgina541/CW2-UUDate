@@ -42,7 +42,7 @@ public:
 	void IncrementDate(); // Increment the current date by one day.
 	int Between(UUDate date); // Return # days between object date and the set date
 	std::string GetDate(); // Return date as a string in correct format
-	int CalculateDay(int day, int month, int year);
+	int CalculateDay(int, int, int);
 	bool VaildDate(int day, int month, int year);
 };
 
