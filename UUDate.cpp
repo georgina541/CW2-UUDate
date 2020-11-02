@@ -181,7 +181,7 @@ int UUDate::Between(UUDate date) {
 	//			UUDate xmas("25-12-1999"); your "to" date
 //			dummy.Between(xmas); will generate the no of days between 01-02-1999 to 25-12-1999
 
-	int thedatefrom = CalculateDay(day_, month_, year_);
+	int thedatefrom = CalculateDay (day_, month_, year_);
 	int datetoo = CalculateDay (date.GetDay(), date.GetMonth(), date.GetYear());
 	int datebetween = thedatefrom- datetoo;
 	if (thedatefrom > datetoo) {
